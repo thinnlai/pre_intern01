@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>HTML CSS Testing2</title>
+        <style>
+            .container{
+                width: 100%;
+                height: 100%;
+            }
+
+            .heading {
+                background-color: darkblue;
+                width: 100%;
+                height: 28%;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                padding-left: 12%;
+                padding-right: 12%;
+                padding-top: 0%;
+                font-family: Arial, Helvetica, sans-serif;
+                color: yellow;
+                
+            }
+
+            a {
+                padding: 5px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: gray;
+                font-size: 14px;
+                text-decoration: none;
+            }
+
+            a:hover {
+                color: black;
+            }
+
+            .nav {
+                position: absolute;
+                background-color: #f1f1f1;
+                width: 100%;
+                height: 8%;
+                left: 0px;
+                top: 165px;
+                padding-top: 10px;
+                padding-left: 12%;
+                padding-right: 12%;
+            }
+
+            .main {
+                position: absolute;
+                background-color: white;
+                width: 100%;
+                height: 70%;
+                left: 0px;
+                top: 210px;
+                
+                padding-left: 12%;
+                padding-right: 12%;
+
+            }
+
+            .footer {
+                position: absolute;
+                width: 100%;
+                height: 5%;
+                left: 0px;
+                top: 850px;
+                background-color: darkblue;
+                text-align: center;
+                padding: 10px;
+                color: yellow;
+                
+            }
+
+            h2 {
+                color: yellow;
+            }
+
+            .logo {
+                float: left;
+            }
+
+            .logtitle {
+                float: left;
+                padding-left: 150px;
+                padding-right: 150px;
+            }
+
+            .sublogo {
+                float: left;
+            }
+
+            .title {
+                padding-left: 10%;
+                padding-right: 10%;
+            }
+
+            .first {
+                float: left;
+                background-color:white;
+                width: auto;
+                height: auto;
+                padding-left: 10px;
+                padding-right: 100px;
+            }
+
+            .form {
+                float: left;
+                background-color: white;
+                width: auto;
+                height: auto;
+                padding-left: 10px;
+                
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+
+            <div class="heading">
+                <div class="title">
+                    <h2>University Journal of ICT in Multidisciplinary Issues on Arts & Science,</h2>
+                </div>
+                <div class="subtitle">
+                    <div class="logo">
+                        <img src="logo.jpg" width="90px">
+                    </div>
+                    <div class="logtitle">
+                        <h3>Engineering, Economics and Education (Volume-1)</h3>
+                    </div>
+                    <div class="sublogo">
+                        <img src="journal_logo.png" width="200px" height="90px">
+                    </div>
+                </div>
+                
+            </div>
+            <div class="nav">
+                <a href="home.html">Home</a>
+                <a href="home.html">Topics</a>
+                <a href="home.html">Call For Papers</a>
+                <a href="home.html">Editorial Board</a>
+                <a href="home.html">Download Session</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+            <div class="main">
+                <div class="first">
+                    <div class="cont1">
+                        <p style="font-size:25px; color: black; text-align: left;  border-bottom: 3px dotted black;">Contact Us</p><br>
+                        
+                        <label for="Tel" style="font-size:15px">Tel : <a href="#" style="font-size:15px;text-decoration:none;color:#0169C4">+95 9-794065357,9-421037973</a></label><br>
+                        <label for="Tel" style="font-size:15px">Email : <a href="#" style="font-size:15px;text-decoration:none;color:#0169C4">journal@ucsh.edu.mm</a></label><br>
+                        <label for="Tel" style="font-size:15px">Website : <a href="#" style="font-size:15px;text-decoration:none;color:#0169C4">ujim-ucsh.org</a></label>
+                    </div>
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3801.887792105489!2d95.4557311!3d17.6554727!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x840980a557818237!2sUniversity+of+Computer+Studies!5e0!3m2!1sen!2smm!4v1548690634820" width="550" height="450" frameborder="0" style="border:0;padding-bottom:1rem" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+                <div class="form">
+                    <p style="padding-top: 1rem; padding-bottom: 1rem; font-size: 25px;" >Get In Touch</p>
+                    <form>
+                        <p>
+                        <label>Your Name (required)</label><br>
+                        <input type="text" name="text" value="" size="40"><br>
+                        </p>
+                        <p>
+                        <label>Your Email (required)</label><br>
+                        <input type="email" name="mail" value="" size="40"><br>
+                        </p>
+                        <p>
+                        <label>Subject</label><br>
+                        <input type="text" name="subj" size="40"><br>
+                        </p>
+                        <p>
+                        <label>Your Message</label><br>
+                        <textarea name="textarea" cols="40" rows="10"></textarea>
+                        </p>
+                        <p>
+                            <input type="submit" value="Send">
+                        </p>
+                    </form>
+                </div>
+            </div>
+            <div class="footer">
+                © UJIM - 2020
+            </div>
+        </div>
+    </body>
+</html>
